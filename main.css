@@ -1,0 +1,198 @@
+  body {
+	margin: auto;
+	padding: 50px;
+	color: #000;
+   
+}
+.wrapper{
+	display:grid;
+	grid-template-columns: 300px 2fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"logo banner banner"
+         "nav  nav  nav"
+         "main main side"
+		"footer footer footer";
+		grid-gap: 4px;
+}
+.box {
+
+	border: solid 1px #000;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #ddd;
+	
+}
+
+
+.logo{
+    grid-area: logo;
+    width: 300px;
+    height: 199px;
+    padding:0px;
+     background-color: skyblue;
+}
+.banner {
+    grid-area: banner;
+    padding: 0px;
+    height: 199px;
+    
+    
+}
+.nav {
+    grid-area: nav;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    background-color: skyblue;
+    
+    
+    
+    }
+.main {
+    grid-area: main;
+    background-color: skyblue;
+    color: black;
+}
+.side {
+    grid-area: side;
+    background-color: skyblue;
+    color: black;
+    
+}
+.footer {
+    grid-area: footer;
+    color: skyblue;
+    text-align: center;
+    background-image: url("https://cdn.shopify.com/s/files/1/1769/5355/products/beans_1400x.jpg?v=1496874926");
+}
+
+
+
+
+h1, h2, h3, h4, p {
+  font-family: 'PT Serif', serif;
+
+}
+
+img.rounded-corners {
+  border-radius: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
+/* Navigation Links */
+.nav a: {font-weight: bold;}
+.nav a:link, .nav a:visited {color: brown;}
+.nav a:hover {color:snow; text-decoration: none;}
+
+
+
+
+/* Links in page */
+a {font-weight: bold;}
+a: link{color: pink;}
+a: visited{color: lime;}
+a: hover{color:chocolate;}
+
+
+/* Links in side bar */
+a: link{color: pink;}
+a: visited{color: lime;}
+a: hover{color: chocolate;}
+
+
+
+table, th, td {
+  border: 10px;
+  text-align: center;
+  font-size: 19px;
+  color: skyblue;
+  background-color: black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
+
+table {
+  
+  border-style: dotted solid double dashed;
+}
+
+
+/* Order Form styling */
+
+.order {
+  width:100%;
+}
+
+h4 {
+  text-align: center;
+}
+
+
+ h2 {
+   font-size: 30px;
+   color:black;
+   text-align: center;
+   
+ }
+ 
+ h3 {
+   text-align: center;
+   font-size: 40px;
+   color: skyblue;
+   background-color: black;
+   
+ }
+ 
+ body {
+   background-image: url("https://i.pinimg.com/originals/17/91/b8/1791b89fde87cbc6a53dc1fa6ad83a31.jpg");
+ }
+ 
+
+ 
+
+
+p.skyblue {
+  color: skyblue;
+  font-size: 20px;
+  background-color: black;
+}
+
+p.red {
+ color: white;
+ font-size: 24px;
+}
+
+ h1.yellow {
+   font-size: 30px;
+   text-align: center;
+   text-decoration: underline;
+  text-shadow: 0px 6px 5px whitesmoke, 0px 1px 0px chocolate;
+ }
+
+
+.right {
+  float: right;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
