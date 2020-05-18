@@ -197,3 +197,7 @@ p.red {
   margin-right: auto;
   width: 50%;
 }
+
+img.center {
+	opacity: 0.5;
+}
