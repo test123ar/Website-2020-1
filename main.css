@@ -31,6 +31,7 @@
     height: 199px;
     padding:0px;
      background-color: skyblue;
+	opacity: 0.5;
 }
 .banner {
     grid-area: banner;
