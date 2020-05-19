@@ -30,7 +30,7 @@
     width: 300px;
     height: 199px;
     padding:0px;
-     background-color: transparent;
+     background-color: skyblue;
 }
 .banner {
     grid-area: banner;
