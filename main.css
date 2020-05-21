@@ -93,7 +93,7 @@ img.rounded-corners {
 
 
 /* Navigation Links */
-.nav a: {font-weight: bold;}
+.nav a{font-weight: bold;}
 .nav a:link, .nav a:visited {color: brown;}
 .nav a:hover {color:snow; text-decoration: none;}
 
@@ -128,7 +128,7 @@ h4 {
   text-align: center;
 }
 
-a: {
+a {
 	color: white;
 }
 
