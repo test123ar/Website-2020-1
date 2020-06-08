@@ -186,6 +186,10 @@ p.red {
   width: 50%;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
 
 
 
