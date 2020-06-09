@@ -186,6 +186,9 @@ p.red {
   width: 50%;
 }
 
+#grad {
+  background-image: linear-gradient(skyblue, turquoise);
+}
 
 
 
