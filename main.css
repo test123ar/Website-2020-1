@@ -20,7 +20,7 @@
 	border: solid 1px #000;
 	padding: 20px;
 	border-radius: 10px;
-	background-color: #ddd;
+	background-image: linear-gradient(skyblue, turquoise);
 	
 }
 
@@ -30,7 +30,7 @@
     width: 300px;
     height: 199px;
     padding:0px;
-     background-color: skyblue;
+    background-image: linear-gradient(skyblue, turquoise);
 }
 .banner {
     grid-area: banner;
@@ -186,9 +186,9 @@ p.red {
   width: 50%;
 }
 
-#grad {
-  background-image: linear-gradient(skyblue, turquoise);
-}
+
+  
+
 
 
 
